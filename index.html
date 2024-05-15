@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>"Meu Dicionário Javascript"</title>
+    <link rel="icon" href="javascript-js.256x256.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS/dados-dic.js"></script>
+    <script src="JS/main.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="centered-container">
+        <img class="center-content" src=IMG2010.png width="225" alt="Logo do Javascript" title="Meu Dicionário Javascript">
+    </div>
+    <div>
+        <h2> Bem-vindo ao Meu Dicionário Javascript !!!</h2>
+        <p>Escolha uma Opção no combo abaixo:</p>
+        <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()"> </select>
+       <p></p>
+        <textarea id="txt-desc" name="description" title="Descição" placeholder=""></textarea>
+    </div>
+</div>
+
+
+     <footer class=" rodape">
+        <p>
+            Desenvolvido por <a href="http://www.linkedin.com/in/flavio-artur/" > <strong> Flavio Artur</strong></a>
+        </p>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "titulo": "O que é JavaScript",
+        "descricao": "JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. Desde o momento em que a página web é exibida no navegador, JavaScript é usado para tornar a página mais responsiva, interativa e dinâmica."
+    },
+    {
+        "id": 2,
+        "titulo": "Variáveis",
+        "descricao": "Locais onde você pode armazenar dados. Em JavaScript, você pode declarar variáveis usando palavras-chave como var, let e const."
+    },
+    {
+        "id": 3,
+        "titulo": "tipos de Dados",
+        "descricao": "JavaScript tem tipos de dados primitivos como números, strings, booleanos, null e undefined, além de tipos de dados compostos como arrays e objetos"
+    },
+    {
+        "id": 4,
+        "titulo": "Loops",
+        "descricao": "Estruturas de controle que permitem executar um bloco de código várias vezes."
+    }
+]
